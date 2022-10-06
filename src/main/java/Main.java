@@ -13,8 +13,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        final Service service = new Service();
-
         List<Tuple<String, LocalDateTime, String>> pessoas = new ArrayList<>();
 
         pessoas.add(Tuple.create("Artur", LocalDateTime.of(1987, Month.MARCH, 25, 19, 30), "Fortaleza"));
